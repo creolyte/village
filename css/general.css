@@ -1,0 +1,443 @@
+/*
+Author               : Eric Tan
+Author URI           : https://www.facebook.com/creolyte
+Description          : General usage CSS
+Version              : 1.2.000
+Latest Update        : Added .strike class
+*/
+
+/* Remove border radius */
+	.flat {
+		border-radius: 0 !important;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+		border-width: 1px !important;
+	}
+/* Text colors */
+	.text-red {
+		color: #dd4b39 !important;
+	}
+	.text-yellow {
+		color: #f39c12 !important;
+	}
+	.text-aqua {
+		color: #00c0ef !important;
+	}
+	.text-blue {
+		color: #0073b7 !important;
+	}
+	.text-black {
+		color: #111111 !important;
+	}
+	.text-light-blue {
+		color: #3c8dbc !important;
+	}
+	.text-green {
+		color: #00a65a !important;
+	}
+	.text-gray {
+		color: #d2d6de !important;
+	}
+	.text-navy {
+		color: #001f3f !important;
+	}
+	.text-teal {
+		color: #39cccc !important;
+	}
+	.text-olive {
+		color: #3d9970 !important;
+	}
+	.text-lime {
+		color: #01ff70 !important;
+	}
+	.text-orange {
+		color: #ff851b !important;
+	}
+	.text-fuchsia {
+		color: #f012be !important;
+	}
+	.text-purple {
+		color: #605ca8 !important;
+	}
+	.text-maroon {
+		color: #d81b60 !important;
+	}
+	.text-white {
+		color: #ffffff !important;
+	}
+/* Hide elements by display none only */
+	.hide {
+		display: none !important;
+	}
+/* Remove borders */
+	.no-border {
+		border: 0px !important;
+	}
+/* Remove padding */
+	.no-padding {
+		padding: 0px !important;
+	}
+	.no-padding-left {
+		padding-left: 0px !important;
+	}
+	.no-padding-right {
+		padding-right: 0px !important;
+	}
+	@media (max-width: 1200px) { /*1200px and below is md*/
+		.no-padding-md {
+			padding: 0px !important;
+		}
+		.no-padding-left-md {
+			padding-left: 0px !important;
+		}
+		.no-padding-right-md {
+			no-padding-right: right !important;
+		}
+	}
+	@media (max-width: 992px) {
+		.no-padding-sm {
+			padding: 0px !important;
+		}
+		.no-padding-left-sm {
+			padding-left: 0px !important;
+		}
+		.no-padding-right-sm {
+			no-padding-right: right !important;
+		}
+	}
+	@media (max-width: 768px) {
+		.no-padding-xs {
+			padding: 0px !important;
+		}
+		.no-padding-left-xs {
+			padding-left: 0px !important;
+		}
+		.no-padding-right-xs {
+			no-padding-right: right !important;
+		}
+	}
+/* Remove margins */
+	.no-margin {
+		margin: 0px !important;
+	}
+	.no-margin-left {
+		margin-left: 0px !important;
+	}
+	.no-margin-right {
+		margin-right: 0px !important;
+	}
+/* Remove box shadow */
+	.no-shadow {
+		box-shadow: none !important;
+	}
+/* Background */
+	.bg-navy,
+	.bg-teal,
+	.bg-olive,
+	.bg-lime,
+	.bg-orange,
+	.bg-fuchsia,
+	.bg-purple,
+	.bg-maroon,
+	.bg-gray,
+	.bg-black,
+	{
+		color: #fff !important;
+	}
+	.bg-navy {
+		background-color: #001f3f !important;
+	}
+	.bg-teal {
+		background-color: #39cccc !important;
+	}
+	.bg-olive {
+		background-color: #3d9970 !important;
+	}
+	.bg-lime {
+		background-color: #01ff70 !important;
+	}
+	.bg-orange {
+		background-color: #ff851b !important;
+	}
+	.bg-fuchsia {
+		background-color: #f012be !important;
+	}
+	.bg-purple {
+		background-color: #605ca8 !important;
+	}
+	.bg-maroon {
+		background-color: #d81b60 !important;
+	}
+	.bg-gray {
+		background-color: #d2d6de !important;
+	}
+	.bg-black {
+		background-color: #111111 !important;
+	}
+/* Buttons */
+	.btn-bittersweet {
+		color: #fff;
+		background-color: #ff6961;
+	}
+	.btn-pastel-green {
+		color: #fff;
+		background-color: #77dd77;
+	}
+	.btn-polo-blue {
+		color: #fff;
+		background-color: #779ecb;
+	}
+	.btn-sandy-brown {
+		color: #fff;
+		background-color: #f1a55a;
+	}
+	.btn-cello {
+		color: #fff;
+		background-color: #3b4f64;
+	}
+/* Spacing */
+	.marg-25 {
+		margin: 25px;
+	}
+	.marg-x-25 {
+		margin: 0 25px;
+	}
+	.marg-y-25 {
+		margin: 25px 0;
+	}
+	.marg-top-25 {
+		margin-top: 25px;
+	}
+	.marg-bott-25 {
+		margin-bottom: 25px;
+	}
+	.marg-left-25 {
+		margin-left: 25px;
+	}
+	.marg-right-25 {
+		margin-right: 25px;
+	}
+	.padd-25 {
+		padding: 25px;
+	}
+	.padd-x-25 {
+		padding: 0 25px;
+	}
+	.padd-y-25 {
+		padding: 25px 0;
+	}
+	.padd-top-25 {
+		padding-top: 25px;
+	}
+	.padd-bott-25 {
+		padding-bottom: 25px;
+	}
+	.padd-left-25 {
+		padding-left: 25px;
+	}
+	.padd-right-25 {
+		padding-right: 25px;
+	}
+	.marg-50 {
+		margin: 50px;
+	}
+	.marg-x-50 {
+		margin: 0 50px;
+	}
+	.marg-y-50 {
+		margin: 50px 0;
+	}
+	.marg-top-50 {
+		margin-top: 50px;
+	}
+	.marg-bott-50 {
+		margin-bottom: 50px;
+	}
+	.marg-left-50 {
+		margin-left: 50px;
+	}
+	.marg-right-50 {
+		margin-right: 50px;
+	}
+	.padd-50 {
+		padding: 50px;
+	}
+	.padd-x-50 {
+		padding: 0 50px;
+	}
+	.padd-y-50 {
+		padding: 50px 0;
+	}
+	.padd-top-50 {
+		padding-top: 50px;
+	}
+	.padd-bott-50 {
+		padding-bottom: 50px;
+	}
+	.padd-left-50 {
+		padding-left: 50px;
+	}
+	.padd-right-50 {
+		padding-right: 50px;
+	}
+	.marg-75 {
+		margin: 75px;
+	}
+	.marg-x-75 {
+		margin: 0 75px;
+	}
+	.marg-y-75 {
+		margin: 75px 0;
+	}
+	.marg-top-75 {
+		margin-top: 75px;
+	}
+	.marg-bott-75 {
+		margin-bottom: 75px;
+	}
+	.marg-left-75 {
+		margin-left: 75px;
+	}
+	.marg-right-75 {
+		margin-right: 75px;
+	}
+	.padd-75 {
+		padding: 75px;
+	}
+	.padd-x-75 {
+		padding: 0 75px;
+	}
+	.padd-y-75 {
+		padding: 75px 0;
+	}
+	.padd-top-75 {
+		padding-top: 75px;
+	}
+	.padd-bott-75 {
+		padding-bottom: 75px;
+	}
+	.padd-left-75 {
+		padding-left: 75px;
+	}
+	.padd-right-75 {
+		padding-right: 75px;
+	}
+	.marg-100 {
+		margin: 100px;
+	}
+	.marg-x-100 {
+		margin: 0 100px;
+	}
+	.marg-y-100 {
+		margin: 100px 0;
+	}
+	.marg-top-100 {
+		margin-top: 100px;
+	}
+	.marg-bott-100 {
+		margin-bottom: 100px;
+	}
+	.marg-left-100 {
+		margin-left: 100px;
+	}
+	.marg-right-100 {
+		margin-right: 100px;
+	}
+	.padd-100 {
+		padding: 100px;
+	}
+	.padd-x-100 {
+		padding: 0 100px;
+	}
+	.padd-y-100 {
+		padding: 100px 0;
+	}
+	.padd-top-100 {
+		padding-top: 100px;
+	}
+	.padd-bott-100 {
+		padding-bottom: 100px;
+	}
+	.padd-left-100 {
+		padding-left: 100px;
+	}
+	.padd-right-100 {
+		padding-right: 100px;
+	}
+	
+/* Datatables */
+	.dataTables_processing {
+		background-color: rgba(1,1,1,0.8) !important;
+		background-image: none !important; /*To remove linear-gradient*/
+		position: absolute !important;
+		top: 50% !important;
+		left: 50% !important;
+		width: 100% !important;
+		height: 40px !important;
+		margin-left: -50% !important;
+		margin-top: -25px !important;
+		padding: 10px !important;
+		text-align: center !important;
+		font-size: 1.2em !important;
+		color: #fff !important;
+	}
+/* Image circle */
+	.img-circle {
+		/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+		border-radius: 50%;
+
+		/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+		-webkit-border-radius: 50%;
+
+		/* Firefox 1-3.6 */
+		-moz-border-radius: 50%;
+	}
+	.img-border-solid {
+		border-style: solid;
+		border-width: 2px;
+		border-color: #77cde3;
+	}
+	.block-center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/* Mobile alignment */
+	@media (max-width: 768px) {
+		.text-center-xs {
+			text-align: center !important;
+		}
+		.text-left-xs {
+			text-align: left !important;
+		}
+		.text-right-xs {
+			text-align: right !important;
+		}
+	}
+	@media (max-width: 992px) {
+		.text-center-sm {
+			text-align: center !important;
+		}
+		.text-left-sm {
+			text-align: left !important;
+		}
+		.text-right-sm {
+			text-align: right !important;
+		}
+	}
+	@media (max-width: 1200px) {
+		.text-center-md {
+			text-align: center !important;
+		}
+		.text-left-md {
+			text-align: left !important;
+		}
+		.text-right-md {
+			text-align: right !important;
+		}
+	}
+/* <strike> is not recommended in html5, use css instead */
+	.strike {
+		text-decoration:line-through !important;
+	}
